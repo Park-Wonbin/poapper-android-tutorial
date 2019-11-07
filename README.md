@@ -32,8 +32,9 @@ cd PoApper_Android_Tutorial
   - `margin`, `padding` 등 다양한 속성들을 이해하고 있다!
 - EditText, TextView
   - `width`, `gravity`, `size` 등 다양한 속성들을 이해하고 있다!
-  - **Activity**에서 텍스트를 읽어와서 표시할 수 있다!
-  - `Button` 등 다른 **Element**들을 사용할 수 있다!
+  - `Button`, `ImageView` 등 다른 **Element**들을 사용할 수 있다!
+  - **Activity**에서 코드를 통해 텍스트를 읽어와서 표시할 수 있다!
+  - **Layout**과 **Activity**의 상호작용을 이해한다! (ex. `onClickListener`)
 - CardView
   - 라이브러리를 적용하고 **xml**을 이용하여 디자인을 잘할 수 있다!
 - Intent
@@ -48,6 +49,7 @@ cd PoApper_Android_Tutorial
 ## Week3
 - Toolbar
 - Navigation Drawer
+- ScrollView
 - Better Design
 
 ## Week4
@@ -55,7 +57,7 @@ cd PoApper_Android_Tutorial
 
 ## Week5
 - AsyncTask
-- Using Opensource(Retrofit, Glide)
+- Using OpenSource(Retrofit, Glide)
 
 ## Curriculum(과제)
 - 레이아웃 디자인하기! - 로그인 / 회원가입 구현
