@@ -36,6 +36,7 @@ class Week1_MainActivity : AppCompatActivity() {
                 intent.putExtra("id", ID)
 
                 startActivity(intent)
+                finish()
             } else {
                 // Toast 메세지를 띄워봐요!
                 Toast.makeText(this, "Wrong ID or PW...", Toast.LENGTH_SHORT).show()

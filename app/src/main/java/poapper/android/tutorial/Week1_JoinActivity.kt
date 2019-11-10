@@ -13,6 +13,8 @@ class Week1_JoinActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.week1_join)
 
+        /** 아래는 2줄은 나중에 배울 부분 입니다.
+         * 신경 안쓰셔도 되요! */
         supportActionBar?.title = "Join"
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
@@ -27,6 +29,8 @@ class Week1_JoinActivity : AppCompatActivity() {
         }
     }
 
+    /** 아래 함수는 나중에 배울 부분 입니다.
+     * 신경 안쓰셔도 되요! */
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             android.R.id.home -> {
