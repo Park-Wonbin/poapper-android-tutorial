@@ -40,6 +40,8 @@ cd PoApper_Android_Tutorial
   - 라이브러리를 적용하고 **xml**을 이용하여 디자인을 잘할 수 있다!
 - Intent
   - 화면(Activity)전환, 전화걸기, 값 이동 등 **intent** 사용법을 잘 알고있다!
+- Toast
+  - **Toast**를 이용하여 간단한 메세지를 출력할 수 있다!
   
 ### 이번주 과제
 - 화면(Layout)이 총 세 개 필요합니다.
