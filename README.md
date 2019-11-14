@@ -36,7 +36,7 @@ cd PoApper_Android_Tutorial
   - `Button`, `ImageView` 등 다른 **Element**들을 사용할 수 있다!
   - **Activity**에서 코드를 통해 텍스트를 읽어와서 표시할 수 있다!
   - **Layout**과 **Activity**의 상호작용을 이해한다! (ex. `onClickListener`)
-- CardView - **첫번째 Material Design 요소 알아보기**
+- CardView - ***첫번째 Material Design 요소 알아보기***
   - 라이브러리를 적용하고 **xml**을 이용하여 디자인을 잘할 수 있다!
 - Intent
   - 화면(Activity)전환, 전화걸기, 값 이동 등 **intent** 사용법을 잘 알고있다!
@@ -74,7 +74,7 @@ cd PoApper_Android_Tutorial
 - Image Asset
   - **Image Asset** 사용법을 안다!
   - 액션 아이콘을 추가하거나 앱 아이콘을 변경할 수 있다!
-- Floating Action Button - **두번째 Material Design 요소 알아보기**
+- Floating Action Button - ***두번째 Material Design 요소 알아보기***
   - **FAB**를 구현할 수 있다!
   - 기본적인 애니메이션을 적용할 수 있다!
   
@@ -82,9 +82,10 @@ cd PoApper_Android_Tutorial
 - 이전에 과제에 이어서 추가하시면 됩니다.
 - 로그인 화면
   - 자동 로그인 기능을 구현해야 됩니다.
-  - 자동 로그인을 설정한 상태로 로그인이 완료되면 아이디를 **SharedPreferences**에 기록해둡니다. 
+  - checkBox를 검색하고 사용해보세요.
+  - 자동 로그인을 설정한 상태로 로그인이 완료되면 아이디를 SharedPreferences에 기록해둡니다. 
 - 메인 화면
-  - **FAB**를 구현해야 합니다.
+  - FAB를 구현해야 합니다.
   - 더보기 FAB를 눌렀을 때 검색, 글쓰기 등의 버튼이 등장해야 됩니다.
 - 디자인
   - 앱 아이콘을 자신이 원하는 로고 또는 이미지로 수정하세요.
