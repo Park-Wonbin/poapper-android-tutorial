@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://github.com/Park-Wonbin/poapper-android-tutorial/blob/master/readme_img.jpg" width="40%"/>
+</p>
+
 # Android Tutorial
 POSTECH 개발 동아리 'PoApper'에서 진행하는 Android 강의용 repository 입니다.
 
