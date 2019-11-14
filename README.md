@@ -64,6 +64,7 @@ cd PoApper_Android_Tutorial
 - SharedPreferences
 - Activity Life Cycle
 - Color, String, etc... Values
+- Image Asset
 - Floating Action Button
 
 ## Week3

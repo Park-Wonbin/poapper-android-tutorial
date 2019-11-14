@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PoApper Tutorial</string>
+
+    <!-- 여기에 원하는 문구를 입력해두고 편하게 불러서 사용할 수 있어요! -->
+    <string name="exampleString">Welcome to the Android Seminar!</string>
+
 </resources>

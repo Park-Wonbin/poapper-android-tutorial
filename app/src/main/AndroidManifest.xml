@@ -9,7 +9,7 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".Week1_MainActivity">
+        <activity android:name=".Week2_LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -19,6 +19,7 @@
 
         <activity android:name=".Week1_JoinActivity"/>
         <activity android:name=".Week1_SubActivity"/>
+        <activity android:name=".Week2_SubActivity"/>
     </application>
 
 </manifest>
