@@ -40,6 +40,8 @@ cd PoApper_Android_Tutorial
   - 라이브러리를 적용하고 **xml**을 이용하여 디자인을 잘할 수 있다!
 - Intent
   - 화면(Activity)전환, 전화걸기, 값 이동 등 **intent** 사용법을 잘 알고있다!
+- Toast
+  - **Toast**를 이용하여 간단한 메세지를 출력할 수 있다!
   
 ### 이번주 과제
 - 화면(Layout)이 총 세 개 필요합니다.
@@ -86,6 +88,7 @@ cd PoApper_Android_Tutorial
 - GitHub 사용하기! - 완성된 앱을 깃에 올리고 링크 제출
 
 ### 참고 사이트
-- [머티리얼 디자인 아이콘](https://icons8.com/)
-- [머티리얼 색상표](https://material.io/design/color/#tools-for-picking-colors)
+- [Material Design Icon](https://icons8.com/)
+- [Material Design Colors](https://material.io/design/color/#tools-for-picking-colors)
 - [안드로이드 개발자가 꼭 알아야할 필수 라이브러리](https://academy.realm.io/kr/posts/360andev-chris-guzman-android-libraries-beginner/)
+- [Java to Kotlin conversion](https://try.kotlinlang.org/)
