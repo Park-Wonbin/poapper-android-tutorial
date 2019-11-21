@@ -1,8 +1,9 @@
-package poapper.android.tutorial
+package poapper.android.tutorial.Week1
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.week1_sub.*
+import poapper.android.tutorial.R
 
 class Week1_SubActivity : AppCompatActivity() {
 

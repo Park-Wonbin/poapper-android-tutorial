@@ -1,4 +1,4 @@
-package poapper.android.tutorial
+package poapper.android.tutorial.Week1
 
 import android.content.Intent
 import android.graphics.Color
@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import kotlinx.android.synthetic.main.week1_main.*
+import poapper.android.tutorial.R
 
 class Week1_MainActivity : AppCompatActivity() {
 

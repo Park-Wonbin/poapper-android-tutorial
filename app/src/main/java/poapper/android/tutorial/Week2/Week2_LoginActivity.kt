@@ -1,4 +1,4 @@
-package poapper.android.tutorial
+package poapper.android.tutorial.Week2
 
 import android.content.Intent
 import android.graphics.Color
@@ -9,6 +9,8 @@ import android.widget.Toast
 import android.content.Context
 import android.content.SharedPreferences
 import kotlinx.android.synthetic.main.week2_login.*
+import poapper.android.tutorial.R
+import poapper.android.tutorial.Week1.Week1_JoinActivity
 
 class Week2_LoginActivity : AppCompatActivity() {
 

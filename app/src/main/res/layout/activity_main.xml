@@ -1,19 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#fff">
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/poapper_logo"
+            android:layout_gravity="center_horizontal"/>
 
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            android:text="POSTECH 개발 동아리 'PoApper'에서 진행하는 Android 강의용 Tutorial 어플리케이션 입니다."
+            android:textColor="#000"
+            android:textSize="13dp"
+            android:gravity="center"
+            android:layout_margin="30dp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+            android:text="       Week1       "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+    <Button
+            android:text="       Week2       "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+    <Button
+            android:text="       Week3       "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+</LinearLayout>

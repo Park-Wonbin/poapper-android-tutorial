@@ -1,4 +1,4 @@
-package poapper.android.tutorial
+package poapper.android.tutorial.Week2
 
 import android.content.Context
 import android.content.Intent
@@ -9,6 +9,7 @@ import android.widget.Toast
 import android.view.View
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
+import poapper.android.tutorial.R
 
 class Week2_SubActivity : AppCompatActivity(), View.OnClickListener {
 

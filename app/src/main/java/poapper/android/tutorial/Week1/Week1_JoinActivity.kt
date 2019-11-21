@@ -1,4 +1,4 @@
-package poapper.android.tutorial
+package poapper.android.tutorial.Week1
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,6 +6,7 @@ import android.view.MenuItem
 import android.widget.Toast
 import kotlinx.android.synthetic.main.week1_join.*
 import kotlinx.android.synthetic.main.week1_main.editText_pw
+import poapper.android.tutorial.R
 
 class Week1_JoinActivity : AppCompatActivity() {
 
