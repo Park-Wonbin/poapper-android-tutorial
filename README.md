@@ -96,13 +96,37 @@ cd PoApper_Android_Tutorial
   - 앱의 메인 색상을 고르고 변경하세요.
 
 ## Week3
-- Toolbar
-- Navigation Drawer
+### 학습할 내용
+- RecyclerView
+    - **RecyclerView**를 이해하고 구현할 수 있다!
+    - **data class**를 생성할 수 있다!
+    - **Adapter**를 구현할 수 있다!
+    - [참고 자료 1](https://recipes4dev.tistory.com/154?category=790402)
+    - [참고 자료 2](https://recipes4dev.tistory.com/168?category=790402)
+- SwipeRefreshLayout - ***세번째 Material Design 요소 알아보기***
+    - 당겨서 새로고침 기능을 구현할 수 있다!
 - ScrollView
-- Better Design
+    - **ScrollView**를 이용하여 더 많은 내용을 표시할 수 있다!
+
+### 이번주 과제
+- 이전에 과제에 이어서 추가하시면 됩니다.
+- 메인 화면
+    - RecyclerView를 이용하여 게시판 목록을 볼 수 있도록 만드셔야 합니다.
+    - 글의 제목, 작성 시간 등의 정보를 표시하여야 합니다.
+        - 글에 대한 정보를 담을 data class를 생성하세요.
+    - 글을 누르면 자세히 보기 화면으로 넘어갑니다.
+    - 테스트 데이터를 hard-code 하여 사용하세요.
+    - 당겨서 새로고침을 구현하세요.
+        - 새로고침시 새로운 아이템을 하나 추가합니다.
+- 자세히 보기 화면
+    - 메인화면에서 누른 글의 세부 정보를 받아와 보여줍니다.
+    - 글의 제목, 작성자, 작성 시간, 내용 등을 표시합니다.
+    - 글이 길 경우 스크롤하여 읽을 수 있도록 하여야 합니다.
 
 ## Week4
-- RecyclerView
+- Toolbar
+- Navigation Drawer
+- Better Design
 
 ## Week5
 - AsyncTask
