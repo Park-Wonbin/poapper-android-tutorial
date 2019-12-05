@@ -124,18 +124,55 @@ cd PoApper_Android_Tutorial
     - 글이 길 경우 스크롤하여 읽을 수 있도록 하여야 합니다.
 
 ## Week4
-- Toolbar
-- Navigation Drawer
-- Better Design
+### 학습할 내용
+- Toolbar - ***네번째 Material Design 요소 알아보기***
+    - **Actionbar**와 **Toolbar**의 차이를 안다!
+    - **Actionbar**를 지우고 **Toolbar**를 구현 할 수 있다!
+    - **Toolbar**에 메뉴를 넣을 수 있다!
+- Navigation Drawer - ***다섯번째 Material Design 요소 알아보기***
+    - **Navigation Drawer**가 무엇인지 알고 구현할 수 있다!
+    - **menu** resource를 잘 다룰 수 있다!
+- Better Design - ***Material Design 더 알아보기***
+    - 다른 머티리얼 요소를 추가하여 디자인을 할 수 있다!
+    - https://material.io/
+    
+### 이번주 과제
+- 이전에 과제에 이어서 추가하시면 됩니다.
+- 메인화면
+    - Toolbar, NavigationView 등 다양한 머티리얼 디자인 요소를 이용하여 자유롭게 꾸며보세요.
 
 ## Week5
+### 학습할 내용
 - AsyncTask
+    - **안드로이드에서 비동기 처리를 하는 방법!**
+    - 시간상 이번학기에는 못 다룰 것 같아요...ㅜㅜ
+    - 네트워크 통신이나 오래걸리는 작업들을 비동기로 처리할 때 주로 사용합니다.
+    - 우리는 이번 네트워크 통신부분(웹에서 정보를 파싱)에서 직접 구현하지 않고 오픈소스를 사용할거라 굳이 이걸 쓰지 않을 거예요!
+    - 그래도 한번쯤은 혼자 검색해서 직접 공부해보면 좋을것 같아요!
+    - 추가로 **Thread & Handler**도 같이 알고 있으면 좋아요!
 - Using OpenSource(Retrofit, Glide)
+    - **Retorfit**을 사용하여 웹 API를 자유롭게 이용할 수 있다!
+    - **Glide**를 통해 웹에 있는 이미지를 쉽게 받아올 수 있다!
+    - Github에서 오픈소스 라이브러리를 검색하고 사용하는 방법을 안다!
+    
+### 이번주 과제
+- 이전에 과제에 이어서 추가하시면 됩니다.
+- 메인화면
+    - Retorfit과 Glide를 이용하여 웹에서 데이터를 파싱합니다.
+    - 파싱된 데이터를 이전에 만든 RecyclerView를 이용하여 보여주세요.
+    - 실습용 baseURL **`https://rss-search-api.herokuapp.com/`**
+    - 실습용 API **`api/v1/channel/items/count/{count}?id=1`**
+        - 뉴스기사를 JSON 형식으로 보여줍니다.
+        - [API 참고 문서](https://github.com/shhj1998/rss-search-api)
 
 ## Curriculum
-- 레이아웃 디자인하기! - 로그인 / 회원가입 구현
-- 벡엔드 처리하기! - 글 목록 / 정렬 / 검색 구현
+- 레이아웃(프론트엔드) 디자인하기! - 로그인 / 회원가입 구현
+- 네트워크(벡엔드) 처리하기! - 글 목록 / ~~정렬 / 검색 구현~~
 - GitHub 사용하기! - 완성된 앱을 깃에 올리고 링크 제출
+### 최종 과제물 제출
+- 매주 과제를 충실히 끝냈다면 그럴듯한 하나의 안드로이드 앱이 완성되어 있을 거예요!
+- 완성된 앱을 본인의 깃에 올리고 링크를 카톡방으로 공유해주세요!
+- 그동안 수고하셨습니다 :)
 
 ### 참고 사이트
 - [Material Design Icon](https://icons8.com/)
