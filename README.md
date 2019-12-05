@@ -170,6 +170,7 @@ cd PoApper_Android_Tutorial
 - 레이아웃(프론트엔드) 디자인하기! - 로그인 / 회원가입 구현
 - 네트워크(벡엔드) 처리하기! - 글 목록 / ~~정렬 / 검색~~ 구현
 - GitHub 사용하기! - 완성된 앱을 깃에 올리고 링크 제출
+
 ### 최종 과제물 제출 - 다음학기 개강 전까지! 
 - 매주 과제를 충실히 끝냈다면 그럴듯한 하나의 안드로이드 앱이 완성되어 있을 거예요!
 - 완성된 앱을 본인의 깃에 올리고 링크를 카톡방으로 공유해주세요!
@@ -180,3 +181,11 @@ cd PoApper_Android_Tutorial
 - [Material Design Colors](https://material.io/design/color/#tools-for-picking-colors)
 - [안드로이드 개발자가 꼭 알아야할 필수 라이브러리](https://academy.realm.io/kr/posts/360andev-chris-guzman-android-libraries-beginner/)
 - [Java to Kotlin conversion](https://try.kotlinlang.org/)
+
+
+#
+<p align="left">
+    <img src="https://github.com/Park-Wonbin/poapper-android-tutorial/blob/master/poapper_logo.png" width="30%"/>
+</p>
+
+2019학년도 가을학기 안드로이드 세미나 담당자: **박원빈**(wonbin9413@postech.ac.kr) 
