@@ -9,6 +9,7 @@ import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.week3_main.*
+import kotlinx.android.synthetic.main.week3_main.toolBar
 import poapper.android.tutorial.R
 import poapper.android.tutorial.Week3.Adapter.Week3_Adapter
 import poapper.android.tutorial.Week3.Model.Week3_Post
@@ -35,6 +36,7 @@ class Week3_MainActivity : AppCompatActivity(), View.OnClickListener, Week3_Adap
         super.onCreate(savedInstanceState)
         setContentView(R.layout.week3_main)
 
+        setSupportActionBar(toolBar)
         supportActionBar?.title = "게시판"
 
         // 애니메이션 설정

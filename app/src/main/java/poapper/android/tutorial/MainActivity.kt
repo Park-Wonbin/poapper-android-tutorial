@@ -9,6 +9,8 @@ import kotlinx.android.synthetic.main.activity_main.*
 import poapper.android.tutorial.Week1.Week1_MainActivity
 import poapper.android.tutorial.Week2.Week2_LoginActivity
 import poapper.android.tutorial.Week3.Week3_MainActivity
+import poapper.android.tutorial.Week4.Week4_MainActivity
+import poapper.android.tutorial.Week5.Week5_MainActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,5 +25,7 @@ class MainActivity : AppCompatActivity() {
         button1.setOnClickListener { startActivity(Intent(this, Week1_MainActivity::class.java)) }
         button2.setOnClickListener { startActivity(Intent(this, Week2_LoginActivity::class.java)) }
         button3.setOnClickListener { startActivity(Intent(this, Week3_MainActivity::class.java)) }
+        button4.setOnClickListener { startActivity(Intent(this, Week4_MainActivity::class.java)) }
+        button5.setOnClickListener { startActivity(Intent(this, Week5_MainActivity::class.java)) }
     }
 }

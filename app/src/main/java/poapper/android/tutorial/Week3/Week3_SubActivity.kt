@@ -11,6 +11,7 @@ class Week3_SubActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.week3_sub)
 
+        toolBar.title = "게시글"
         title_textView.text = intent.getStringExtra("title")
         time_textView.text = intent.getStringExtra("time")
         name_textView.text = intent.getStringExtra("name")

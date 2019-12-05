@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu1"
+            android:icon="@drawable/ic_action_tag"
+            android:title="메뉴1" />
+        <item
+            android:id="@+id/menu2"
+            android:icon="@drawable/ic_action_tag"
+            android:title="메뉴2" />
+        <item
+            android:id="@+id/menu3"
+            android:icon="@drawable/ic_action_tag"
+            android:title="메뉴3" />
+    </group>
+
+    <item android:title="기타">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/etc1"
+                    android:icon="@drawable/ic_action_tag"
+                    android:title="기타1" />
+                <item
+                    android:id="@+id/etc2"
+                    android:icon="@drawable/ic_action_tag"
+                    android:title="기타2" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

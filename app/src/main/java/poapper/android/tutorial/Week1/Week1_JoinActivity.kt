@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.MenuItem
 import android.widget.Toast
 import kotlinx.android.synthetic.main.week1_join.*
+import kotlinx.android.synthetic.main.week1_join.toolBar
 import kotlinx.android.synthetic.main.week1_main.editText_pw
 import poapper.android.tutorial.R
 
@@ -14,8 +15,9 @@ class Week1_JoinActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.week1_join)
 
-        /** 아래는 2줄은 나중에 배울 부분 입니다.
+        /** 아래는 3줄은 나중에 배울 부분 입니다.
          * 신경 안쓰셔도 되요! */
+        setSupportActionBar(toolBar)
         supportActionBar?.title = "Join"
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 

@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="poapper.android.tutorial">
 
+    <!-- 인터넷 사용 권한 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
@@ -26,6 +29,10 @@
 
         <activity android:name=".Week3.Week3_MainActivity"/>
         <activity android:name=".Week3.Week3_SubActivity"/>
+
+        <activity android:name=".Week4.Week4_MainActivity"/>
+
+        <activity android:name=".Week5.Week5_MainActivity"/>
     </application>
 
 </manifest>
